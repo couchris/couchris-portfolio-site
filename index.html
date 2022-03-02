@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Chris Couto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+   
+    <div class="container">
+        <nav class="topnav" id="myTopnav">
+            <img src="img/cclogo.png" id="navlogo">
+            <a class="scroll" id=".page1">Home</a>
+            <a class="scroll" id=".page2">Portfolio</a>
+            <a class="scroll" id=".page3">Experience</a>
+            <a class="scroll" id=".page4">About Me</a>
+            <a class="scroll" id=".page5">Contact</a>
+            <a href="javascript:void(0);" style="color: white;" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+
+        <section class="page1" >
+            <h1>Christopher Couto</h1>
+            <h2 class="typewrite" data-period="2000" data-type='[ "Aspiring Full-Stack Developer"]'>
+              </h2>
+        </section>
+        <section class="page2">
+            <h2>Portfolio</h2>
+            <div class="project-container">
+                <div class="project">
+                    <img src="img/vintage.jpg">
+                    <div class="project-details">
+                        <div>
+                            <span class="tag">Angular</span>
+                            <span class="tag">Typescript</span>
+                            <span class="tag">NodeJS</span>
+                        </div>
+                        <div class="name">Video Game Library</div>
+                        <p class="desc">App that allows you to search video games, and view their details.</p>
+                        <div class="atags">
+                            <a href="https://github.com/couchris/videogames-api">Github</a>
+                            <a href="https://couchris-videogamelibrary.herokuapp.com/">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/vintage.jpg">
+                    <div class="project-details">
+                        <div>
+                            <span class="tag">C#</span>
+                            <span class="tag">Razor Pages</span>
+                            <span class="tag">ASP .NET</span>
+                        </div>
+                        <div class="name">Trucks/Routes</div>
+                        <p class="desc">An app that has a form for trucks and routes, and can assign routes to trucks and determine cost.</p>
+                        <div class="atags">
+                        <a href="https://github.com/couchris/Trucks-Routes">Github</a>
+                        <a href="https://couchris-truckroutes.herokuapp.com/">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/vintage.jpg">
+                    <div class="project-details">
+                        <div>
+                            <span class="tag">Angular</span>
+                            <span class="tag">Typescript</span>
+                            <span class="tag">API</span>
+                        </div>
+                        <div class="name">Daily Motion API</div>
+                        <p class="desc">App that uses dailymotion's api to search for videos, additional playlist feature.</p>
+                        <div class="atags">
+                        <a href="https://github.com/couchris/dailymotionapi-app">Github</a>
+                        <a href="https://couchris-dailymotionapi.herokuapp.com/">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/vintage.jpg">
+                    <div class="project-details">
+                        <div>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <div class="name">Eatery</div>
+                        <p class="desc">Restaurant app with a shopping cart.</p>
+                        <div class="atags">
+                        <a href="https://github.com/couchris/theeatery">Github</a>
+                        <a href="https://couchris.github.io/theeatery/">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page3">
+            <h1>Experience</h1>
+        </section>
+        <section class="page4">
+            <h1>About Me</h1>
+        </section>
+        <section class="page5">
+            
+            <h2>Connect</h2>
+        <div class="form">
+            <form action="https://formspree.io/f/myyojwyo" method="POST">
+                <input type="email" name="email" placeholder="Email.." id="emailinput" required>
+                <br>
+                <br>
+                <textarea name="message" placeholder="Message.." id="msginput" required></textarea>
+                <br>
+                <br>
+            <button type="submit" id="sendBtn">SEND</button>
+            </form>
+        </div>
+        </section>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+</html>
