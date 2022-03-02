@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
 html{
     background-color: #222;
 }
@@ -95,13 +97,17 @@ body {
       font-size: 40px;
       text-align: center;
       text-shadow: 2px 2px 4px rgb(131, 62, 6);
+      font-family: 'press start 2p';
   }
 
-  h2{
-    color:#333;
-    font-size: 35px;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgb(131, 62, 6);
+
+h2{
+  font-family: 'press start 2p';
+  font-size: 3rem;
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgb(131, 62, 6);
+  color: #333;
 }
 
 
@@ -199,8 +205,14 @@ body {
   }
   .topnav a:last-of-type:hover,
   .topnav a:nth-of-type(5):hover {
+    color: #ffffff;
+  }
+
+  .navscroll a:last-of-type:hover,
+  .navscroll a:nth-of-type(5):hover {
     color: #ff6f16;
   }
+
   .topnav a:last-of-type:hover:after,
   .topnav a:nth-of-type(5):hover:after {
     width: 0;
@@ -211,7 +223,7 @@ body {
     opacity: 0;
     width: 0;
     height: 3px;
-    background: #ff6f16;
+    background: #ffffff;
     transition: all 0.3s;
     transform-origin: center;
   }
