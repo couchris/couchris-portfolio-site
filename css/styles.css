@@ -79,7 +79,7 @@ body {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    font-family: -apple-system, 'Open Sans', sans-serif;
+    font-family: "Raleway";
 
   }
   section {
@@ -97,12 +97,12 @@ body {
       font-size: 40px;
       text-align: center;
       text-shadow: 2px 2px 4px rgb(131, 62, 6);
-      font-family: 'press start 2p';
+      
   }
 
 
 h2{
-  font-family: 'press start 2p';
+  
   font-size: 3rem;
   font-size: 35px;
   text-align: center;
@@ -128,17 +128,17 @@ h2{
     
   }
   section:nth-of-type(2) {
-   background-color:#f3f3f3;
+   background-color:white;
    padding-bottom: 400px;
   }
   section:nth-of-type(3) {
-    background-color:#f3f3f3;
+    background-color:white;
   }
   section:nth-of-type(4) {
-    background-color:#f3f3f3;
+    background-color:white;
   }
   section:nth-of-type(5) {
-    background-color:#f3f3f3;
+    background-color:white;
   }
   nav a {
     cursor: pointer;
