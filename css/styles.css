@@ -139,6 +139,7 @@ h2{
   }
   section:nth-of-type(5) {
     background-color:white;
+    padding-bottom: 300px;
   }
   nav a {
     cursor: pointer;
