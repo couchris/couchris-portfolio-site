@@ -76,9 +76,7 @@ body {
   .container {
     width: 100vw;
     height: 100vh;
-    scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    scroll-behavior: smooth;
     font-family: "Raleway";
 
   }
@@ -96,7 +94,7 @@ body {
       color:#333;
       font-size: 40px;
       text-align: center;
-      text-shadow: 2px 2px 4px rgb(131, 62, 6);
+      
       
   }
 
@@ -106,7 +104,6 @@ h2{
   font-size: 3rem;
   font-size: 35px;
   text-align: center;
-  text-shadow: 2px 2px 4px rgb(131, 62, 6);
   color: #333;
 }
 
@@ -119,7 +116,7 @@ h2{
   text-shadow: 2px 2px 4px rgb(248, 248, 248);
 }
   section:nth-of-type(1) {
-    background-image: url(../img/vintageorange.jpg);
+    background-image: url(../img/orangenebula.jpg);
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
