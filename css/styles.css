@@ -277,7 +277,6 @@ img {
   width: 100%;
   border-radius: 12px;
   height: 214px;
-  object-fit: contain;
 }
 
 .project-container{
@@ -323,9 +322,10 @@ img {
   border: none;
   padding: 12px 24px;
   border-radius: 50px;
+  border: 1px solid #ff6f16;
   font-weight: 600;
   color: #ff6f16;
-  background-color: rgb(255, 227, 175);
+  background: transparent;
   margin: 0 auto;
   display: inline-block;
   transition:  all 200ms ease-in-out;
