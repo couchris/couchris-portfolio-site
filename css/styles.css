@@ -119,10 +119,10 @@ h2{
   }
   section:nth-of-type(4) {
     background-color:#323137;
+    padding-bottom: 100px;
   }
   section:nth-of-type(5) {
     background-color:323137;
-    padding-bottom: 100px;
   }
   nav a {
     cursor: pointer;
@@ -381,7 +381,7 @@ a, a:hover {
 .socialbtns li {
     list-style: none outside none;
     display: inline-block;
-}
+    text-align: center;}
 
 .socialbtns .fa {
 	width: 40px;
